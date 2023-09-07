@@ -1,0 +1,45 @@
+using System;
+
+class Module18
+{
+  private /* dynamic */ int object1;
+  private static int object2;
+  public /* dynamic */ int object3;
+  public static int object4;
+  
+  private /* dynamic */ void operation1 ()
+  {
+    Console.Write (object1);
+    Console.Write (object2);
+    Console.Write (object3);
+    Console.Write (object4);
+  }
+  
+  private static void operation2 ()
+  {
+    Console.Write (object1);
+    Console.Write (object2);
+    Console.Write (object3);
+    Console.Write (object4);
+  }
+  
+  public /* dynamic */ void operation3 ()
+  {
+    Console.Write (object1);
+    Console.Write (object2);
+    Console.Write (object3);
+    Console.Write (object4);
+  }
+    
+  public static void operation4 ()
+  {
+    Console.Write (object1);
+    Console.Write (object2);
+    Console.Write (object3);
+    Console.Write (object4);
+  }
+
+  public static void Main (string[] args)
+  {
+  }
+}
