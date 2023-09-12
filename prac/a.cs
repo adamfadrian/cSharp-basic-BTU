@@ -31,8 +31,9 @@ using System;
 
 // }
 
-class Complex{
- char column;
+class Complex
+{
+    char column;
     Complex(char operand)
     {
         this.column = operand;
@@ -42,7 +43,7 @@ class Complex{
     {
 
     }
-   public static void Main()
+    public static void Main()
     {
         Complex RecordObject = new Complex('a');
         Complex RecordObject2 = new Complex('b');
@@ -51,17 +52,26 @@ class Complex{
 
 class Collection11
 {
- static char[] operation0 ()
- {
- return ("Hello".ToCharArray());
- }
- static int[] operation1 ()
- {
- return (new int[] {-2, 1, 0, 2, 1});
- }
- static void Main ()
- { // ignore the returned-values
- operation0 (); // does NOT raise error
- operation1 ();
- }
+    static char[] operation0()
+    {
+        return ("Hello".ToCharArray());
+    }
+    static int[] operation1()
+    {
+        return (new int[] { -2, 1, 0, 2, 1 });
+    }
+    static void Main()
+    { // ignore the returned-values
+        operation0(); // does NOT raise error
+        operation1();
+    }
+}
+
+
+class Complex
+{
+    static void main()
+    {
+        Complex[] RecordObject = new Complex[2] { 1, 2 }
+    }
 }
